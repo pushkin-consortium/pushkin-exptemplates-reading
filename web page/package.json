@@ -26,5 +26,8 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-plugin-static-fs": "^3.0.0"
-  }
+  },
+  "jest":{
+    "testEnvironment": "jsdom"
+}
 }
